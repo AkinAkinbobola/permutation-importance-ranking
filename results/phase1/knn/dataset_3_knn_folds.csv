@@ -1,11 +1,11 @@
-Dataset,Fold,Accuracy,F1,Parameters,Best_K,Best_Weights,Best_Metric,Fold_Time_Seconds
-dataset_3,1,0.9103232533889468,0.6148838994716165,"{'knn__metric': 'manhattan', 'knn__n_neighbors': 7, 'knn__weights': 'distance'}",7,distance,manhattan,5.49
-dataset_3,2,0.8915537017726799,0.6029895651705399,"{'knn__metric': 'euclidean', 'knn__n_neighbors': 3, 'knn__weights': 'distance'}",3,distance,euclidean,5.49
-dataset_3,3,0.8832116788321168,0.6038361252241795,"{'knn__metric': 'manhattan', 'knn__n_neighbors': 3, 'knn__weights': 'uniform'}",3,uniform,manhattan,5.12
-dataset_3,4,0.8747390396659708,0.566569660424409,"{'knn__metric': 'manhattan', 'knn__n_neighbors': 9, 'knn__weights': 'distance'}",9,distance,manhattan,5.19
-dataset_3,5,0.8935281837160751,0.5804091725828661,"{'knn__metric': 'manhattan', 'knn__n_neighbors': 5, 'knn__weights': 'distance'}",5,distance,manhattan,5.21
-dataset_3,6,0.8893528183716075,0.5812948453104182,"{'knn__metric': 'euclidean', 'knn__n_neighbors': 5, 'knn__weights': 'distance'}",5,distance,euclidean,4.95
-dataset_3,7,0.8789144050104384,0.571836332690614,"{'knn__metric': 'manhattan', 'knn__n_neighbors': 7, 'knn__weights': 'distance'}",7,distance,manhattan,5.44
-dataset_3,8,0.8966597077244259,0.5477866368604073,"{'knn__metric': 'manhattan', 'knn__n_neighbors': 3, 'knn__weights': 'distance'}",3,distance,manhattan,4.85
-dataset_3,9,0.8956158663883089,0.5964196677575361,"{'knn__metric': 'euclidean', 'knn__n_neighbors': 3, 'knn__weights': 'distance'}",3,distance,euclidean,4.69
-dataset_3,10,0.8977035490605428,0.5979479042416839,"{'knn__metric': 'manhattan', 'knn__n_neighbors': 3, 'knn__weights': 'uniform'}",3,uniform,manhattan,4.77
+Dataset,Fold,Accuracy,F1,Best_K,Best_Metric,Parameters,Fold_Time_Seconds
+dataset_3,1,0.8676,0.534,7,manhattan,"{'metric': 'manhattan', 'n_neighbors': 7}",2.24
+dataset_3,2,0.8989,0.608,3,manhattan,"{'metric': 'manhattan', 'n_neighbors': 3}",2.53
+dataset_3,3,0.8905,0.6073,3,manhattan,"{'metric': 'manhattan', 'n_neighbors': 3}",3.75
+dataset_3,4,0.8873,0.5632,5,euclidean,"{'metric': 'euclidean', 'n_neighbors': 5}",2.23
+dataset_3,5,0.8831,0.5636,3,euclidean,"{'metric': 'euclidean', 'n_neighbors': 3}",2.44
+dataset_3,6,0.8946,0.5907,5,manhattan,"{'metric': 'manhattan', 'n_neighbors': 5}",2.7
+dataset_3,7,0.8987,0.5749,3,manhattan,"{'metric': 'manhattan', 'n_neighbors': 3}",2.95
+dataset_3,8,0.8925,0.5979,3,euclidean,"{'metric': 'euclidean', 'n_neighbors': 3}",2.03
+dataset_3,9,0.8894,0.6092,3,manhattan,"{'metric': 'manhattan', 'n_neighbors': 3}",2.36
+dataset_3,10,0.8873,0.5708,9,manhattan,"{'metric': 'manhattan', 'n_neighbors': 9}",3.45
